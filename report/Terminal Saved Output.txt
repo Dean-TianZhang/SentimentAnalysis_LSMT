@@ -1,0 +1,134 @@
+Last login: Sun Apr 23 17:38:52 on ttys001
+dhcp-wifi-8021x-155-41-99-216:~ deanzhang$ cd Downloads/multi-class-text-classification-cnn-master
+dhcp-wifi-8021x-155-41-99-216:multi-class-text-classification-cnn-master deanzhang$ python3 train.py ./data/amazonReview_100000.csv.zip ./parameters.json
+INFO:root:The maximum length of all sentences: 4212
+INFO:root:x_train: 80996, x_dev: 9000, x_test: 10000
+INFO:root:y_train: 80996, y_dev: 9000, y_test: 10000
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+CRITICAL:root:Accuracy on dev set: 0.2624444444444444
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-200 at step 200
+CRITICAL:root:Best accuracy 0.2624444444444444 at step 200
+CRITICAL:root:Accuracy on dev set: 0.3191111111111111
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-400 at step 400
+CRITICAL:root:Best accuracy 0.3191111111111111 at step 400
+CRITICAL:root:Accuracy on dev set: 0.33866666666666667
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-600 at step 600
+CRITICAL:root:Best accuracy 0.33866666666666667 at step 600
+CRITICAL:root:Accuracy on dev set: 0.3506666666666667
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-800 at step 800
+CRITICAL:root:Best accuracy 0.3506666666666667 at step 800
+CRITICAL:root:Accuracy on dev set: 0.351
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-1000 at step 1000
+CRITICAL:root:Best accuracy 0.351 at step 1000
+CRITICAL:root:Accuracy on dev set: 0.4091111111111111
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-1200 at step 1200
+CRITICAL:root:Best accuracy 0.4091111111111111 at step 1200
+CRITICAL:root:Accuracy on dev set: 0.397
+CRITICAL:root:Accuracy on dev set: 0.43233333333333335
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-1600 at step 1600
+CRITICAL:root:Best accuracy 0.43233333333333335 at step 1600
+CRITICAL:root:Accuracy on dev set: 0.4348888888888889
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-1800 at step 1800
+CRITICAL:root:Best accuracy 0.4348888888888889 at step 1800
+CRITICAL:root:Accuracy on dev set: 0.4428888888888889
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-2000 at step 2000
+CRITICAL:root:Best accuracy 0.4428888888888889 at step 2000
+CRITICAL:root:Accuracy on dev set: 0.4524444444444444
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-2200 at step 2200
+CRITICAL:root:Best accuracy 0.4524444444444444 at step 2200
+CRITICAL:root:Accuracy on dev set: 0.45611111111111113
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-2400 at step 2400
+CRITICAL:root:Best accuracy 0.45611111111111113 at step 2400
+CRITICAL:root:Accuracy on dev set: 0.4693333333333333
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-2600 at step 2600
+CRITICAL:root:Best accuracy 0.4693333333333333 at step 2600
+CRITICAL:root:Accuracy on dev set: 0.47688888888888886
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-2800 at step 2800
+CRITICAL:root:Best accuracy 0.47688888888888886 at step 2800
+CRITICAL:root:Accuracy on dev set: 0.476
+CRITICAL:root:Accuracy on dev set: 0.47733333333333333
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-3200 at step 3200
+CRITICAL:root:Best accuracy 0.47733333333333333 at step 3200
+CRITICAL:root:Accuracy on dev set: 0.4881111111111111
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-3400 at step 3400
+CRITICAL:root:Best accuracy 0.4881111111111111 at step 3400
+CRITICAL:root:Accuracy on dev set: 0.4905555555555556
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-3600 at step 3600
+CRITICAL:root:Best accuracy 0.4905555555555556 at step 3600
+CRITICAL:root:Accuracy on dev set: 0.4998888888888889
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-3800 at step 3800
+CRITICAL:root:Best accuracy 0.4998888888888889 at step 3800
+CRITICAL:root:Accuracy on dev set: 0.5054444444444445
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-4000 at step 4000
+CRITICAL:root:Best accuracy 0.5054444444444445 at step 4000
+CRITICAL:root:Accuracy on dev set: 0.5064444444444445
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-4200 at step 4200
+CRITICAL:root:Best accuracy 0.5064444444444445 at step 4200
+CRITICAL:root:Accuracy on dev set: 0.5022222222222222
+CRITICAL:root:Accuracy on dev set: 0.5078888888888888
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-4600 at step 4600
+CRITICAL:root:Best accuracy 0.5078888888888888 at step 4600
+CRITICAL:root:Accuracy on dev set: 0.5188888888888888
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-4800 at step 4800
+CRITICAL:root:Best accuracy 0.5188888888888888 at step 4800
+CRITICAL:root:Accuracy on dev set: 0.5188888888888888
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-5000 at step 5000
+CRITICAL:root:Best accuracy 0.5188888888888888 at step 5000
+CRITICAL:root:Accuracy on dev set: 0.5178888888888888
+CRITICAL:root:Accuracy on dev set: 0.5218888888888888
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-5400 at step 5400
+CRITICAL:root:Best accuracy 0.5218888888888888 at step 5400
+CRITICAL:root:Accuracy on dev set: 0.5268888888888889
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-5600 at step 5600
+CRITICAL:root:Best accuracy 0.5268888888888889 at step 5600
+CRITICAL:root:Accuracy on dev set: 0.5267777777777778
+CRITICAL:root:Accuracy on dev set: 0.5312222222222223
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-6000 at step 6000
+CRITICAL:root:Best accuracy 0.5312222222222223 at step 6000
+CRITICAL:root:Accuracy on dev set: 0.5341111111111111
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-6200 at step 6200
+CRITICAL:root:Best accuracy 0.5341111111111111 at step 6200
+CRITICAL:root:Accuracy on dev set: 0.5312222222222223
+CRITICAL:root:Accuracy on dev set: 0.5264444444444445
+CRITICAL:root:Accuracy on dev set: 0.5345555555555556
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-6800 at step 6800
+CRITICAL:root:Best accuracy 0.5345555555555556 at step 6800
+CRITICAL:root:Accuracy on dev set: 0.53
+CRITICAL:root:Accuracy on dev set: 0.5354444444444444
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-7200 at step 7200
+CRITICAL:root:Best accuracy 0.5354444444444444 at step 7200
+CRITICAL:root:Accuracy on dev set: 0.5323333333333333
+CRITICAL:root:Accuracy on dev set: 0.5323333333333333
+CRITICAL:root:Accuracy on dev set: 0.5256666666666666
+CRITICAL:root:Accuracy on dev set: 0.5314444444444445
+CRITICAL:root:Accuracy on dev set: 0.535
+CRITICAL:root:Accuracy on dev set: 0.5344444444444445
+CRITICAL:root:Accuracy on dev set: 0.5323333333333333
+CRITICAL:root:Accuracy on dev set: 0.535
+CRITICAL:root:Accuracy on dev set: 0.5352222222222223
+CRITICAL:root:Accuracy on dev set: 0.5354444444444444
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-9200 at step 9200
+CRITICAL:root:Best accuracy 0.5354444444444444 at step 9200
+CRITICAL:root:Accuracy on dev set: 0.5332222222222223
+CRITICAL:root:Accuracy on dev set: 0.5314444444444445
+CRITICAL:root:Accuracy on dev set: 0.5324444444444445
+CRITICAL:root:Accuracy on dev set: 0.5354444444444444
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-10000 at step 10000
+CRITICAL:root:Best accuracy 0.5354444444444444 at step 10000
+CRITICAL:root:Accuracy on dev set: 0.5364444444444444
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-10200 at step 10200
+CRITICAL:root:Best accuracy 0.5364444444444444 at step 10200
+CRITICAL:root:Accuracy on dev set: 0.5287777777777778
+CRITICAL:root:Accuracy on dev set: 0.5378888888888889
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-10600 at step 10600
+CRITICAL:root:Best accuracy 0.5378888888888889 at step 10600
+CRITICAL:root:Accuracy on dev set: 0.5355555555555556
+CRITICAL:root:Accuracy on dev set: 0.537
+CRITICAL:root:Accuracy on dev set: 0.5378888888888889
+CRITICAL:root:Saved model /Users/deanzhang/Downloads/multi-class-text-classification-cnn-master/trained_model_1492986268/checkpoints/model-11200 at step 11200
+CRITICAL:root:Best accuracy 0.5378888888888889 at step 11200
+
